@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #606c38;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    background-color: #283618;
+    color: antiquewhite;
+    margin-top: 10vmin;
+    padding: 2rem;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 5%;
+}
+.form{
+    margin-top: 15px; 
+}
+
+input{
+    width: 100%;
+    font-size: 17px;
+    height: 25px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #d77627;
+}
+.select-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.dropdown img{
+    max-width: 3rem;
+}
+.dropdown{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d77627;
+    border-radius: 5px;
+    height: 2.5rem;
+
+}
+.dropdown select{
+    height: 1.8rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #283618;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.dropdown select option{
+    background-color:lightgrey;
+    color: #000000;
+    
+}
+i{
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 30px;
+    height: 30px;
+    background-color: #606c38;
+    border-radius: 10px;
+    border: 1px solid #dda15e;
+    color:#ffff;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+   cursor: pointer;
+}
+button:hover{
+    background:transparent ;
+    border-color:#606c38 ;
+}
+.msg{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #606c38;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 2rem;
+}
+
+h1{
+    text-align: center; 
+     color: #dda15e;
+     margin-top: 2rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3rem;
+}
+.pic{
+    width:max-content;
+    height: 80px;
+}
